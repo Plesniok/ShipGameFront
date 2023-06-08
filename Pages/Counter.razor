@@ -1,0 +1,55 @@
+﻿@page "/connectGame"
+@inject NavigationManager Navigation
+@using ShipGameFront
+
+
+<PageTitle>Connect Game</PageTitle>
+
+<h1>Connect game</h1>
+<form method="post" @onsubmit="HandleFormSubmit">
+    <label for="gameCode">Podaj kod gry:</label>
+    <input type="text" id="gameCode" name="gameCode" @bind="gameCode" />
+
+    <button type="submit" class="btn btn-primary">Sprawdź grę</button>
+
+</form>
+@if(ErrorMessage == "Game does not exist"){
+    <h2 style="color: red">Game does not exist!</h2>
+}
+
+@code {
+    private string gameCode = "";
+    private string ErrorMessage = "test";
+    private bool ifGameIsLocked = true;
+    private async Task HandleFormSubmit()
+    {
+        try
+        {
+            gameCode = gameCode == ""
+            ?"Write game code"
+            :gameCode;
+            ServiceData ifGameIsLockedResponse = await BackendApi.GetIfGameIsLocked(gameCode);
+            if(ifGameIsLockedResponse.StatusCode != 200){
+                ErrorMessage = ifGameIsLockedResponse.Data.errorMessage;
+                
+                if(ifGameIsLockedResponse.Data.errorMessage == "Game does not exist"){
+                    ErrorMessage = "Game does not exist";
+                }
+            }
+            else{
+                ifGameIsLocked = ifGameIsLockedResponse.Data.ifGameIsLocked;
+                if(!ifGameIsLocked){
+                    Navigation.NavigateTo($"/add-player?game-code={Uri.EscapeDataString(gameCode)}");
+                }
+                else{
+                    Navigation.NavigateTo($"/connectLockedGame?game-code={Uri.EscapeDataString(gameCode)}");
+                }    
+
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Error: {ex.Message}\n\nStack Trace:\n{ex.StackTrace}";
+        }
+    }
+}

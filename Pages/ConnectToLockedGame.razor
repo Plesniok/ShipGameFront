@@ -1,0 +1,51 @@
+@page "/connectLockedGame"
+@inject NavigationManager Navigation
+@using ShipGameFront
+
+
+<PageTitle>Connect Game</PageTitle>
+
+<h1>Connect game</h1>
+<form method="post" @onsubmit="HandleFormSubmit">
+    <label for="playerName">Podaj swoje imię:</label>
+    <input type="text" id="playerName" name="playerName" @bind="playerName" />
+
+    <button type="submit" class="btn btn-primary">Sprawdź grę</button>
+
+</form>
+<h2 style="color: red">Game does not exist!</h2>
+
+@code {
+    private string gameCode = "";
+    private string playerName = "";
+    private string ErrorMessage = "test";
+    private async Task HandleFormSubmit()
+    {
+        try
+        {
+            ServiceData playerIdResponse = await BackendApi.GetPlayerId(gameCode, playerName);
+            if(playerIdResponse.StatusCode != 200){
+                ErrorMessage = playerIdResponse.Data.errorMessage;
+                
+                if(playerIdResponse.Data.errorMessage == "Player does not exist in given Game"){
+                    ErrorMessage = "Player does not exist in given Game";
+                }
+            }
+            else{
+                Navigation.NavigateTo($"/game?game-code={gameCode}&playerName={playerName}&");
+                
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Error: {ex.Message}\n\nStack Trace:\n{ex.StackTrace}";
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        var uri = new Uri(Navigation.Uri);
+        var query = System.Web.HttpUtility.ParseQueryString(uri.Query);
+        gameCode = query["game-code"];
+    }
+}

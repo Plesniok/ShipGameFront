@@ -1,0 +1,28 @@
+﻿@page "/game"
+@using Microsoft.AspNetCore.Components.Web
+@inject NavigationManager Navigation
+
+
+<PageTitle>Redirected Page</PageTitle>
+
+<h1>Redirected Page</h1>
+
+<p>Game code is: @gameCode</p>
+<p>you are: @playerName</p>
+
+<a href="/connectGame">Go back to Connect Game</a>
+
+@code {
+    private string gameCode;
+    private string playerName;
+
+
+    protected override void OnInitialized()
+    {
+        var uri = new Uri(Navigation.Uri);
+        var query = System.Web.HttpUtility.ParseQueryString(uri.Query);
+        gameCode = query["game-code"];
+        playerName = query["playerName"];
+    }
+}
+
