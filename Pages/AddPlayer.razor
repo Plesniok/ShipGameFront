@@ -111,13 +111,16 @@
             testRequest.tableName = gameCode;
             testRequest.ships = selectedPoints;
             ServiceData response = await BackendApi.AddPlayerTwo(testRequest);
-            if (response.StatusCode == 200)
+            ServiceData playerIdResponse = await BackendApi.GetPlayerId(gameCode, playerNameForm);
+
+            if (response.StatusCode == 200 && playerIdResponse.StatusCode == 200)
             {
-                Navigation.NavigateTo($"/game?game-code={gameCode}&playerName={playerNameForm}&");
+
+                Navigation.NavigateTo($"/game?game-code={gameCode}&playerName={playerNameForm}&playerId={playerIdResponse.Data.playerId}");
             }
             else
             {
-                ErrorMessage = "DONE!!!";
+                ErrorMessage = "service error";
             }
         }
         catch (Exception ex)

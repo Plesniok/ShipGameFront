@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1728542372,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.App",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "shipGameFront",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1451186190,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.App",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "shipGameFront.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "shipGameFront",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1343880613,
         "Kind": "Components.Component",
         "Name": "shipGameFront.Shared.SurveyPrompt",
@@ -248,37 +211,74 @@
         }
       },
       {
-        "HashCode": -1582112413,
+        "HashCode": -1728542372,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.AddPlayer",
+        "Name": "shipGameFront.App",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AddPlayer"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
-          "Common.TypeNameIdentifier": "AddPlayer",
+          "Common.TypeName": "shipGameFront.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "shipGameFront",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1451186190,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.App",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "shipGameFront",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1335484372,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.Counter",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
           "Common.TypeNamespace": "shipGameFront.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 104032764,
+        "HashCode": 1809990544,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.AddPlayer",
+        "Name": "shipGameFront.Pages.Counter",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "shipGameFront.Pages.AddPlayer"
+            "TagName": "shipGameFront.Pages.Counter"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
-          "Common.TypeNameIdentifier": "AddPlayer",
+          "Common.TypeName": "shipGameFront.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
           "Common.TypeNamespace": "shipGameFront.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -322,74 +322,37 @@
         }
       },
       {
-        "HashCode": -1380596480,
+        "HashCode": -1582112413,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.FetchData",
+        "Name": "shipGameFront.Pages.AddPlayer",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "AddPlayer"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
+          "Common.TypeNameIdentifier": "AddPlayer",
           "Common.TypeNamespace": "shipGameFront.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 2045271060,
+        "HashCode": 104032764,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.FetchData",
+        "Name": "shipGameFront.Pages.AddPlayer",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "shipGameFront.Pages.FetchData"
+            "TagName": "shipGameFront.Pages.AddPlayer"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1335484372,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.Counter",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1809990544,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.Counter",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "shipGameFront.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
+          "Common.TypeNameIdentifier": "AddPlayer",
           "Common.TypeNamespace": "shipGameFront.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -427,6 +390,43 @@
         "Metadata": {
           "Common.TypeName": "shipGameFront.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1380596480,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.FetchData",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2045271060,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.FetchData",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
           "Common.TypeNamespace": "shipGameFront.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

@@ -39,7 +39,7 @@ namespace ShipGameFront
 
     public class SuccessGetPlayerByName
     {
-            public int playerIndex { get; set; }
+            public int playerId { get; set; }
     }
     public class SuccessGetIfGameIsLocked
     {

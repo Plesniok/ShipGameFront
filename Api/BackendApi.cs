@@ -88,13 +88,13 @@ namespace ShipGameFront
             return serviceData;
         }
 
-        public static async Task<ServiceData> GetPlayerAvailableShips(string tableName, string playerName)
+        public static async Task<ServiceData> GetPlayerAvailableShips(string tableName, int playerId)
         {
             ServiceData serviceData = new ServiceData();
 
             ServiceResponse response = await RequestSender.Get(
                 "/ships/all/available",
-                $@"?tableName={tableName}&playerName={playerName}"
+                $@"?tableName={tableName}&playerId={playerId}"
             );
 
             if (response.StatusCode != 200)
@@ -109,13 +109,13 @@ namespace ShipGameFront
             return serviceData;
         }
 
-        public static async Task<ServiceData> GetPlayerNotAvailableShips(string tableName, string playerName)
+        public static async Task<ServiceData> GetPlayerNotAvailableShips(string tableName, int playerId)
         {
             ServiceData serviceData = new ServiceData();
 
             ServiceResponse response = await RequestSender.Get(
                 "/ships/all/not-available",
-                $@"?tableName={tableName}&playerName={playerName}"
+                $@"?tableName={tableName}&playerId={playerId}"
             );
 
             if (response.StatusCode != 200)
@@ -130,13 +130,13 @@ namespace ShipGameFront
             return serviceData;
         }
 
-        public static async Task<ServiceData> GetPlayerMissedShips(string tableName, string playerName)
+        public static async Task<ServiceData> GetPlayerMissedShips(string tableName, int playerId)
         {
             ServiceData serviceData = new ServiceData();
 
             ServiceResponse response = await RequestSender.Get(
                 "/ships/all/missed",
-                $@"?tableName={tableName}&playerName={playerName}"
+                $@"?tableName={tableName}&playerId={playerId}"
             );
 
             if (response.StatusCode != 200)

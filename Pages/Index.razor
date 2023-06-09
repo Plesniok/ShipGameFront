@@ -111,10 +111,15 @@
 
             testRequest.ships = selectedPoints;
             ServiceData response = await BackendApi.CreateGame(testRequest);
+
             myVariable = response.Data.newGameCode;
             if (response.StatusCode == 200)
             {
-                Navigation.NavigateTo($"/game?game-code={response.Data.newGameCode}&playername={playerNameForm}");
+                ServiceData playerIdResponse = await BackendApi.GetPlayerId(response.Data.newGameCode, playerNameForm);
+                if(playerIdResponse.StatusCode == 200){
+                    Navigation.NavigateTo($"/game?game-code={response.Data.newGameCode}&playername={playerNameForm}&playerId={playerIdResponse.Data.playerId}");
+
+                }
             }
             else
             {

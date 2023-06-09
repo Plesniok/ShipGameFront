@@ -1,21 +1,270 @@
 ﻿@page "/game"
 @using Microsoft.AspNetCore.Components.Web
 @inject NavigationManager Navigation
+@using ShipGameFront
+@using System.Timers
 
 
-<PageTitle>Redirected Page</PageTitle>
 
-<h1>Redirected Page</h1>
+<PageTitle>Game</PageTitle>
+
+<h1>Gra: @gameCode</h1>
 
 <p>Game code is: @gameCode</p>
 <p>you are: @playerName</p>
+@if(selectedPoints.Count() > 0 && platerTour == true){
+    <button type="submit" class="btn btn-primary" @onclick="() => Attack()">Atakuj!</button>
+}
+<h3>@(platerTour?"Twój ruch":"czekaj na ruch przeciwnika")</h3>
 
-<a href="/connectGame">Go back to Connect Game</a>
+
+<div class="table-container">
+    <div>
+        
+        <h2>Twoja plansza</h2>
+        <table class="game-board player">
+            @for (int row = 1; row < 7; row++)
+            {
+                int currentRow = row;
+                <tr>
+                    @for (int col = 1; col < 7; col++)
+                    {
+                        int currentColumn = col;
+                        @if(
+                            !IsPointInList(currentRow, currentColumn, missedPlayerPoints) &&
+                            !IsPointInList(currentRow, currentColumn, killedPlayerPoints)
+                        ){
+                            <td>
+                                <button class="cell cell-selected" @onclick="() => SelectEnemyPoint(currentRow, currentColumn)">@pointAlphabet[currentRow]@currentColumn</button>
+                            </td>
+                        }
+                        else{
+                            
+                            @if(IsPointInList(currentRow, currentColumn, missedPlayerPoints)){
+                                <td>
+                                    <button class="cell" style="background-color: rgba(0, 0, 0, 0.411);">@pointAlphabet[currentRow]@currentColumn</button>
+                                </td>
+                            }
+                            @if(IsPointInList(currentRow, currentColumn, killedPlayerPoints)){
+                                <td>
+                                    <button class="cell" style="background-color: rgb(255, 166, 0);">@pointAlphabet[currentRow]@currentColumn</button>
+                                </td>
+                            }
+                        }
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+    <div>
+        <h2>Plansza przeciwnika</h2>
+        <table class="game-board enemy">
+            @for (int row = 1; row < 7; row++)
+            {
+                int currentRow = row;
+                <tr>
+                    @for (int col = 1; col < 7; col++)
+                    {
+                        int currentColumn = col;
+                        @if(
+                            !IsEnemyPointSelected(currentRow, currentColumn) &&
+                            !IsPointInList(currentRow, currentColumn, missedEnemyPoints) &&
+                            !IsPointInList(currentRow, currentColumn, killedEnemyPoints)
+                        ){
+                            <td>
+                                <button class="cell cell-selected" @onclick="() => SelectEnemyPoint(currentRow, currentColumn)">@pointAlphabet[currentRow]@currentColumn</button>
+                            </td>
+                        }
+                        else{
+                            
+                            @if(IsPointInList(currentRow, currentColumn, missedEnemyPoints)){
+                                <td>
+                                    <button class="cell" style="background-color: rgba(0, 0, 0, 0.411);">@pointAlphabet[currentRow]@currentColumn</button>
+                                </td>
+                            }
+                            @if(IsPointInList(currentRow, currentColumn, killedEnemyPoints)){
+                                <td>
+                                    <button class="cell" style="background-color: rgb(255, 166, 0);">@pointAlphabet[currentRow]@currentColumn</button>
+                                </td>
+                            }
+                            @if(IsEnemyPointSelected(currentRow, currentColumn)){
+                                <td>
+                                    <button class="cell" style="background-color: rgb(0, 255, 55);" @onclick="() => RemoveEnemyPointFromSelected(currentRow, currentColumn)">@pointAlphabet[currentRow]@currentColumn</button>
+                                </td>
+                            }
+                        }
+                        
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<style>
+    .table-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .game-board {
+        border-collapse: collapse;
+    }
+
+    .game-board td {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .game-board button {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        border: none;
+        cursor: pointer;
+    }
+
+    .game-board button:hover {
+        background-color: #e9e9e9;
+    }
+
+</style>
 
 @code {
     private string gameCode;
     private string playerName;
+    private int playerId;
+    private int enemyId;
 
+
+    string pointAlphabet = "_ABCDEF";
+    bool platerTour = false;
+    string ErrorMessage = "";
+
+    List<Point> selectedPoints = new List<Point>();
+    List<Point> missedEnemyPoints = new List<Point>();
+    List<Point> killedEnemyPoints = new List<Point>();
+
+    List<Point> missedPlayerPoints = new List<Point>();
+    List<Point> killedPlayerPoints = new List<Point>();
+    
+
+    bool IsEnemyPointSelected(int row, int col)
+    {
+        Point selectedPoint = new Point { x = row, y = col };
+        foreach (Point point in selectedPoints){
+            if(point.x == row && point.y == col){
+                
+                return true;
+            };
+        }
+        return false;
+    }
+    bool IsPointInList(int row, int col, List<Point> listPoints)
+    {
+        Point selectedPoint = new Point { x = row, y = col };
+        foreach (Point point in listPoints){
+            if(point.x == row && point.y == col){
+                
+                return true;
+            };
+        }
+        return false;
+    }
+    private void SelectEnemyPoint(int row, int col)
+    {
+        if(selectedPoints.Count() == 0){
+            Point selectedPoint = new Point { x = row, y = col };
+            selectedPoints.Add(selectedPoint);    
+        }
+        
+    }
+
+    private void RemoveEnemyPointFromSelected(int row, int col)
+    {
+        for (int i = 0; i < selectedPoints.Count; i++)
+        {
+            Point point = selectedPoints[i];
+            
+            if (point.x == row && point.y == col)
+            {
+                selectedPoints.RemoveAt(i);
+            }
+        }
+    }
+
+    private async Task Attack()
+    {
+        DestroyShip attackRequest = new DestroyShip();
+
+        attackRequest.tableName = gameCode;
+        attackRequest.playerName = playerName;
+        attackRequest.ship = selectedPoints[0];
+
+        ServiceData attackResponse = await BackendApi.DestroyShip(attackRequest);
+
+        SetPlayerTour setPlayerTourRequest = new SetPlayerTour();
+
+        setPlayerTourRequest.playerId = enemyId;
+        setPlayerTourRequest.tableName = gameCode;
+
+        ServiceData setPlayerTourResponse = await BackendApi.SetPlayerTour(setPlayerTourRequest);
+        
+        if(attackResponse.StatusCode == 200 && setPlayerTourResponse.StatusCode == 200){
+            selectedPoints = new List<Point>();
+            
+            UpdatePlayerPoints();
+            UpdateEnemyPoints();
+            updateGameTour();
+        }
+    }
+
+    private async Task<bool> updateGameTour(){
+        ServiceData SuccessGetPlayerWithTour = await BackendApi.GetPlayerTour(gameCode);
+        if(SuccessGetPlayerWithTour.StatusCode == 200){
+            platerTour = SuccessGetPlayerWithTour.Data.playerId == playerId
+            ?true
+            :false;
+            
+            return platerTour; 
+
+        }
+        ErrorMessage = "Błąd serwisu: get player tour failed";
+        return false;
+    }
+
+    private async Task<List<Point>>? updateNotAvailablePoints(int playerId){
+        ServiceData availalbePointsResponse = await BackendApi.GetPlayerNotAvailableShips(gameCode, playerId);
+        if(availalbePointsResponse.StatusCode == 200){
+
+            return availalbePointsResponse.Data.ships;
+        }
+        ErrorMessage = "Błąd serwisu: get player tour failed";
+        return null;
+    }
+
+    private async Task<List<Point>>? updateMissedPoints(int playerId){
+        ServiceData availalbePointsResponse = await BackendApi.GetPlayerMissedShips(gameCode, playerId);
+        if(availalbePointsResponse.StatusCode == 200){
+
+            return availalbePointsResponse.Data.ships;
+        }
+        ErrorMessage = "Błąd serwisu: get player tour failed";
+        return null;
+    }
+
+    private async Task UpdatePlayerPoints(){
+        killedPlayerPoints = await updateNotAvailablePoints(playerId);
+        missedPlayerPoints = await updateMissedPoints(playerId);
+    }
+
+    private async Task UpdateEnemyPoints(){
+        killedEnemyPoints = await updateNotAvailablePoints(enemyId);
+        missedEnemyPoints = await updateMissedPoints(enemyId);
+    }
 
     protected override void OnInitialized()
     {
@@ -23,6 +272,39 @@
         var query = System.Web.HttpUtility.ParseQueryString(uri.Query);
         gameCode = query["game-code"];
         playerName = query["playerName"];
+        playerId = int.Parse(query["playerId"]);
+        
+        enemyId = playerId == 1
+        ? 2
+        : 1;
+
+        timer = new Timer(2000);
+        timer.Elapsed += TimerElapsed;
+        timer.AutoReset = true;
+        timer.Start();
+        UpdatePlayerPoints();
+        UpdateEnemyPoints();
+        updateGameTour();
+    }
+
+    @* TIMER *@
+    private string currentTime;
+    private Timer timer;
+
+
+    private void TimerElapsed(object sender, ElapsedEventArgs e)
+    {
+        UpdatePlayerPoints();
+        UpdateEnemyPoints();
+        updateGameTour();
+        currentTime = DateTime.Now.ToString("HH:mm:ss");
+        StateHasChanged(); 
+    }
+
+    public void Dispose()
+    {
+        timer?.Stop();
+        timer?.Dispose();
     }
 }
 

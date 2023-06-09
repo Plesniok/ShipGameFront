@@ -13,12 +13,11 @@
     <button type="submit" class="btn btn-primary">Sprawdź grę</button>
 
 </form>
-<h2 style="color: red">Game does not exist!</h2>
-
+<h1 style="color: red">@ErrorMessage</h1>
 @code {
     private string gameCode = "";
     private string playerName = "";
-    private string ErrorMessage = "test";
+    private string ErrorMessage = "";
     private async Task HandleFormSubmit()
     {
         try
@@ -32,7 +31,7 @@
                 }
             }
             else{
-                Navigation.NavigateTo($"/game?game-code={gameCode}&playerName={playerName}&");
+                Navigation.NavigateTo($"/game?game-code={gameCode}&playerName={playerName}&playerId={playerIdResponse.Data.playerId}");
                 
             }
         }
