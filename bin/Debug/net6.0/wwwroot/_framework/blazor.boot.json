@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-SboUbkX8s5RVQGtnN5Q67MBZW0I\/P3aeEMENJq8gv8M=",
       "netstandard.dll": "sha256-lZ8L5iiSghlvyt2ie2YdBYAtJbVa4mvpvBX3W9ihjLc=",
       "System.Private.CoreLib.dll": "sha256-jECkJy2Sjpl59QEL3nO3p8nwKGXvnJpXaKQF\/+MTw04=",
-      "shipGameFront.dll": "sha256-MC1WkerHTTDmbU10gPxEySDq0ZTpbKrD7crr4NkU8Zw="
+      "shipGameFront.dll": "sha256-Ore99dY9etEA7rUNC\/QgHxRx1K55SVHmoMQInIG\/LFs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "shipGameFront.pdb": "sha256-YkcQsd\/I0emnJXadik3qJ9NaSVNPXqynXLU60MPIKrw="
+      "shipGameFront.pdb": "sha256-vYrDvjJixgZgqh8oAPAtpJNvbeIMmz+zaAgojQ+TpCY="
     },
     "runtime": {
       "dotnet.6.0.10.ctye738pg4.js": "sha256-KtM3Wrooexmrt5NmqvZfWoDPtNIe6wZqLopR6ToqUPg=",

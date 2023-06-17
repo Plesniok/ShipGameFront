@@ -9,44 +9,325 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -536511999,
+        "HashCode": 808753522,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Shared.NavMenu",
+        "Name": "shipGameFront.App",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "shipGameFront.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "shipGameFront",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -457312612,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.App",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "shipGameFront",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -91608793,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.AddPlayer",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddPlayer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
+          "Common.TypeNameIdentifier": "AddPlayer",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1412913621,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.AddPlayer",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.AddPlayer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
+          "Common.TypeNameIdentifier": "AddPlayer",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 563535404,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.ConnectToLockedGame",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ConnectToLockedGame"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.ConnectToLockedGame",
+          "Common.TypeNameIdentifier": "ConnectToLockedGame",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -625881672,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.ConnectToLockedGame",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.ConnectToLockedGame"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.ConnectToLockedGame",
+          "Common.TypeNameIdentifier": "ConnectToLockedGame",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1054931444,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.Counter",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1940606657,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.Counter",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -417291269,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.Index",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 749602554,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.Index",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 808134381,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.GameEnd",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GameEnd"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.GameEnd",
+          "Common.TypeNameIdentifier": "GameEnd",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1312661859,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.GameEnd",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.GameEnd"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.GameEnd",
+          "Common.TypeNameIdentifier": "GameEnd",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 387900269,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.FetchData",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 713136833,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Pages.FetchData",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shipGameFront.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "shipGameFront.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1505448969,
+        "Kind": "Components.Component",
+        "Name": "shipGameFront.Shared.SurveyPrompt",
+        "AssemblyName": "shipGameFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "shipGameFront.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "shipGameFront.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 982092010,
+        "HashCode": -999301614,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Shared.NavMenu",
+        "Name": "shipGameFront.Shared.SurveyPrompt",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "shipGameFront.Shared.NavMenu"
+            "TagName": "shipGameFront.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "shipGameFront.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "shipGameFront.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 549920983,
+        "HashCode": -1543934797,
         "Kind": "Components.Component",
         "Name": "shipGameFront.Shared.MainLayout",
         "AssemblyName": "shipGameFront",
@@ -77,7 +358,7 @@
         }
       },
       {
-        "HashCode": 1280748037,
+        "HashCode": 687888533,
         "Kind": "Components.Component",
         "Name": "shipGameFront.Shared.MainLayout",
         "AssemblyName": "shipGameFront",
@@ -109,7 +390,7 @@
         }
       },
       {
-        "HashCode": 1775329896,
+        "HashCode": -1033063467,
         "Kind": "Components.ChildContent",
         "Name": "shipGameFront.Shared.MainLayout.Body",
         "AssemblyName": "shipGameFront",
@@ -130,7 +411,7 @@
         }
       },
       {
-        "HashCode": 2047806547,
+        "HashCode": 109984989,
         "Kind": "Components.ChildContent",
         "Name": "shipGameFront.Shared.MainLayout.Body",
         "AssemblyName": "shipGameFront",
@@ -152,214 +433,44 @@
         }
       },
       {
-        "HashCode": -235163126,
+        "HashCode": -1605774741,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Shared.SurveyPrompt",
+        "Name": "shipGameFront.Shared.NavMenu",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "shipGameFront.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "shipGameFront.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -799530020,
+        "HashCode": 804682095,
         "Kind": "Components.Component",
-        "Name": "shipGameFront.Shared.SurveyPrompt",
+        "Name": "shipGameFront.Shared.NavMenu",
         "AssemblyName": "shipGameFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "shipGameFront.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "shipGameFront.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "shipGameFront.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "shipGameFront.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "shipGameFront.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -558908071,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.AddPlayer",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddPlayer"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
-          "Common.TypeNameIdentifier": "AddPlayer",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1377876354,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.AddPlayer",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "shipGameFront.Pages.AddPlayer"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.AddPlayer",
-          "Common.TypeNameIdentifier": "AddPlayer",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 442510239,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.Counter",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 779467197,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.Counter",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "shipGameFront.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -2098684742,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.ConnectToLockedGame",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ConnectToLockedGame"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.ConnectToLockedGame",
-          "Common.TypeNameIdentifier": "ConnectToLockedGame",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1773144478,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.Pages.ConnectToLockedGame",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "shipGameFront.Pages.ConnectToLockedGame"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.Pages.ConnectToLockedGame",
-          "Common.TypeNameIdentifier": "ConnectToLockedGame",
-          "Common.TypeNamespace": "shipGameFront.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1057257730,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.App",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "shipGameFront",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1703471077,
-        "Kind": "Components.Component",
-        "Name": "shipGameFront.App",
-        "AssemblyName": "shipGameFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "shipGameFront.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "shipGameFront.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "shipGameFront",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1736374935,
+        "HashCode": -869332544,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -434,7 +545,7 @@
         }
       },
       {
-        "HashCode": 2012709436,
+        "HashCode": -1067853116,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -510,7 +621,7 @@
         }
       },
       {
-        "HashCode": 1607023862,
+        "HashCode": -701018694,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -531,7 +642,7 @@
         }
       },
       {
-        "HashCode": 1791413976,
+        "HashCode": -1369516590,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -553,7 +664,7 @@
         }
       },
       {
-        "HashCode": 1527822019,
+        "HashCode": -1883848079,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -595,7 +706,7 @@
         }
       },
       {
-        "HashCode": 284738277,
+        "HashCode": 861083676,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -638,7 +749,7 @@
         }
       },
       {
-        "HashCode": 1489870455,
+        "HashCode": -1633129003,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -680,7 +791,7 @@
         }
       },
       {
-        "HashCode": -1601528191,
+        "HashCode": -187269896,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -723,7 +834,7 @@
         }
       },
       {
-        "HashCode": -1445575530,
+        "HashCode": -1269748794,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -744,7 +855,7 @@
         }
       },
       {
-        "HashCode": 210049472,
+        "HashCode": 205273693,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -766,7 +877,7 @@
         }
       },
       {
-        "HashCode": -397362516,
+        "HashCode": -1179536696,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -808,7 +919,7 @@
         }
       },
       {
-        "HashCode": -488057973,
+        "HashCode": -79697299,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -851,7 +962,7 @@
         }
       },
       {
-        "HashCode": -316288267,
+        "HashCode": -147778250,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -959,7 +1070,7 @@
         }
       },
       {
-        "HashCode": -541734911,
+        "HashCode": 455181141,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1068,7 +1179,7 @@
         }
       },
       {
-        "HashCode": 980935350,
+        "HashCode": 77892132,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1089,7 +1200,7 @@
         }
       },
       {
-        "HashCode": 974791972,
+        "HashCode": 1388719463,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1111,7 +1222,7 @@
         }
       },
       {
-        "HashCode": -1689721496,
+        "HashCode": -1578407399,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1144,7 +1255,7 @@
         }
       },
       {
-        "HashCode": 1965423451,
+        "HashCode": 1626340144,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1178,7 +1289,7 @@
         }
       },
       {
-        "HashCode": -452702737,
+        "HashCode": -1084724731,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1199,7 +1310,7 @@
         }
       },
       {
-        "HashCode": 879737635,
+        "HashCode": -1805273963,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1221,7 +1332,7 @@
         }
       },
       {
-        "HashCode": -965827310,
+        "HashCode": -395662704,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1240,7 +1351,7 @@
         }
       },
       {
-        "HashCode": 789678840,
+        "HashCode": 364268378,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1260,7 +1371,7 @@
         }
       },
       {
-        "HashCode": -602075720,
+        "HashCode": 1763094304,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1365,7 +1476,7 @@
         }
       },
       {
-        "HashCode": 1753644564,
+        "HashCode": -175625588,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1471,7 +1582,7 @@
         }
       },
       {
-        "HashCode": -1148161115,
+        "HashCode": -2030829279,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1504,7 +1615,7 @@
         }
       },
       {
-        "HashCode": -259006160,
+        "HashCode": 2006775711,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1538,7 +1649,7 @@
         }
       },
       {
-        "HashCode": -1635972965,
+        "HashCode": -355288662,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1610,7 +1721,7 @@
         }
       },
       {
-        "HashCode": 441435369,
+        "HashCode": -1788721218,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1683,7 +1794,7 @@
         }
       },
       {
-        "HashCode": 2061617172,
+        "HashCode": 1068910120,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1791,7 +1902,7 @@
         }
       },
       {
-        "HashCode": 1707172243,
+        "HashCode": 219329057,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1900,7 +2011,7 @@
         }
       },
       {
-        "HashCode": 2131824455,
+        "HashCode": 763231830,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1942,7 +2053,7 @@
         }
       },
       {
-        "HashCode": 993199704,
+        "HashCode": -440319344,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1985,7 +2096,7 @@
         }
       },
       {
-        "HashCode": 447967442,
+        "HashCode": 323757535,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2082,7 +2193,7 @@
         }
       },
       {
-        "HashCode": -833815299,
+        "HashCode": -1115072402,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2180,7 +2291,7 @@
         }
       },
       {
-        "HashCode": 1558088489,
+        "HashCode": 954374687,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2244,7 +2355,7 @@
         }
       },
       {
-        "HashCode": -1322361948,
+        "HashCode": 546513844,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2309,7 +2420,7 @@
         }
       },
       {
-        "HashCode": 1019150909,
+        "HashCode": -1470354523,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2417,7 +2528,7 @@
         }
       },
       {
-        "HashCode": -45556023,
+        "HashCode": 802512258,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2526,7 +2637,7 @@
         }
       },
       {
-        "HashCode": 1117280630,
+        "HashCode": -181605948,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2547,7 +2658,7 @@
         }
       },
       {
-        "HashCode": 345341015,
+        "HashCode": -1542725724,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2569,7 +2680,7 @@
         }
       },
       {
-        "HashCode": -232406367,
+        "HashCode": -420728516,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2667,7 +2778,7 @@
         }
       },
       {
-        "HashCode": 1503419471,
+        "HashCode": 1906253052,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2766,7 +2877,7 @@
         }
       },
       {
-        "HashCode": -2058983512,
+        "HashCode": -1368553530,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2787,7 +2898,7 @@
         }
       },
       {
-        "HashCode": -1739623437,
+        "HashCode": -128325534,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2809,7 +2920,7 @@
         }
       },
       {
-        "HashCode": 1090694815,
+        "HashCode": -874417299,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2881,7 +2992,7 @@
         }
       },
       {
-        "HashCode": 890039456,
+        "HashCode": -1731021727,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2954,7 +3065,7 @@
         }
       },
       {
-        "HashCode": 1387782406,
+        "HashCode": -1094472517,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3026,7 +3137,7 @@
         }
       },
       {
-        "HashCode": 353560398,
+        "HashCode": -151165913,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3099,7 +3210,7 @@
         }
       },
       {
-        "HashCode": 1989379824,
+        "HashCode": -1774619999,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3153,7 +3264,7 @@
         }
       },
       {
-        "HashCode": -1359414060,
+        "HashCode": 1494552759,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3208,7 +3319,7 @@
         }
       },
       {
-        "HashCode": 1838396896,
+        "HashCode": 1845934185,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3249,7 +3360,7 @@
         }
       },
       {
-        "HashCode": -1137841296,
+        "HashCode": -1133068055,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3291,7 +3402,7 @@
         }
       },
       {
-        "HashCode": -1924883839,
+        "HashCode": -458621508,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3332,7 +3443,7 @@
         }
       },
       {
-        "HashCode": -1837258708,
+        "HashCode": 374429027,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3374,7 +3485,7 @@
         }
       },
       {
-        "HashCode": -2079662256,
+        "HashCode": -1337892175,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3437,7 +3548,7 @@
         }
       },
       {
-        "HashCode": -643699229,
+        "HashCode": -1293749198,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3501,7 +3612,7 @@
         }
       },
       {
-        "HashCode": -1415897078,
+        "HashCode": 27236468,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3522,7 +3633,7 @@
         }
       },
       {
-        "HashCode": -1541866111,
+        "HashCode": -2145886089,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3544,7 +3655,7 @@
         }
       },
       {
-        "HashCode": -1586088885,
+        "HashCode": 1617990417,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3576,7 +3687,7 @@
         }
       },
       {
-        "HashCode": -790713471,
+        "HashCode": 2084250836,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3609,7 +3720,7 @@
         }
       },
       {
-        "HashCode": -231270873,
+        "HashCode": -1430279570,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3630,7 +3741,7 @@
         }
       },
       {
-        "HashCode": -1600389025,
+        "HashCode": -362344304,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3652,7 +3763,7 @@
         }
       },
       {
-        "HashCode": 826048427,
+        "HashCode": -1352268766,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3671,7 +3782,7 @@
         }
       },
       {
-        "HashCode": 674236071,
+        "HashCode": 431876618,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3691,7 +3802,7 @@
         }
       },
       {
-        "HashCode": 156077117,
+        "HashCode": -1292515780,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3723,7 +3834,7 @@
         }
       },
       {
-        "HashCode": 763263038,
+        "HashCode": 1419155176,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3756,7 +3867,7 @@
         }
       },
       {
-        "HashCode": -1183898819,
+        "HashCode": -841489340,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3777,7 +3888,7 @@
         }
       },
       {
-        "HashCode": 1649120672,
+        "HashCode": -990172930,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3799,7 +3910,7 @@
         }
       },
       {
-        "HashCode": -1170336583,
+        "HashCode": 1097197115,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3862,7 +3973,7 @@
         }
       },
       {
-        "HashCode": -586788360,
+        "HashCode": 1345844570,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3926,7 +4037,7 @@
         }
       },
       {
-        "HashCode": 1204288749,
+        "HashCode": -1445410327,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3947,7 +4058,7 @@
         }
       },
       {
-        "HashCode": 146548817,
+        "HashCode": -433557083,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3969,7 +4080,7 @@
         }
       },
       {
-        "HashCode": -2056497459,
+        "HashCode": -1691064048,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4002,7 +4113,7 @@
         }
       },
       {
-        "HashCode": 936519011,
+        "HashCode": 904228118,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4036,7 +4147,7 @@
         }
       },
       {
-        "HashCode": 665591321,
+        "HashCode": -649624105,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4158,7 +4269,7 @@
         }
       },
       {
-        "HashCode": -1630428619,
+        "HashCode": 1900891190,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4281,7 +4392,7 @@
         }
       },
       {
-        "HashCode": 824472237,
+        "HashCode": -494870373,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4314,7 +4425,7 @@
         }
       },
       {
-        "HashCode": -1419137249,
+        "HashCode": 864251459,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4348,7 +4459,7 @@
         }
       },
       {
-        "HashCode": -1172627669,
+        "HashCode": 1974897573,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4381,7 +4492,7 @@
         }
       },
       {
-        "HashCode": 1460800234,
+        "HashCode": -444052673,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4415,7 +4526,7 @@
         }
       },
       {
-        "HashCode": 507169905,
+        "HashCode": -78085542,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4448,7 +4559,7 @@
         }
       },
       {
-        "HashCode": -1129721397,
+        "HashCode": 118676720,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4482,7 +4593,7 @@
         }
       },
       {
-        "HashCode": 229029515,
+        "HashCode": 1419230389,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4565,7 +4676,7 @@
         }
       },
       {
-        "HashCode": 292404175,
+        "HashCode": -1617545066,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4648,7 +4759,7 @@
         }
       },
       {
-        "HashCode": -1649887077,
+        "HashCode": 731348299,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4731,7 +4842,7 @@
         }
       },
       {
-        "HashCode": -600334889,
+        "HashCode": 1086342046,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4814,7 +4925,7 @@
         }
       },
       {
-        "HashCode": 530508862,
+        "HashCode": 1597408187,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4897,7 +5008,7 @@
         }
       },
       {
-        "HashCode": -150487003,
+        "HashCode": 359446731,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4980,7 +5091,7 @@
         }
       },
       {
-        "HashCode": 1040438374,
+        "HashCode": -1921942846,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5063,7 +5174,7 @@
         }
       },
       {
-        "HashCode": 1840909133,
+        "HashCode": 1196966105,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5146,7 +5257,7 @@
         }
       },
       {
-        "HashCode": 1570740813,
+        "HashCode": -540143653,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5229,7 +5340,7 @@
         }
       },
       {
-        "HashCode": 12553043,
+        "HashCode": -523058833,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5312,7 +5423,7 @@
         }
       },
       {
-        "HashCode": 1017028901,
+        "HashCode": -1983424596,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5395,7 +5506,7 @@
         }
       },
       {
-        "HashCode": 436557342,
+        "HashCode": 1023146563,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5478,7 +5589,7 @@
         }
       },
       {
-        "HashCode": -1318764043,
+        "HashCode": 1211286670,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5561,7 +5672,7 @@
         }
       },
       {
-        "HashCode": 677341414,
+        "HashCode": -115566825,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5644,7 +5755,7 @@
         }
       },
       {
-        "HashCode": 1093568530,
+        "HashCode": 419011463,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5727,7 +5838,7 @@
         }
       },
       {
-        "HashCode": -414167567,
+        "HashCode": 1421966264,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5810,7 +5921,7 @@
         }
       },
       {
-        "HashCode": -1764526193,
+        "HashCode": -1774099712,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5893,7 +6004,7 @@
         }
       },
       {
-        "HashCode": 1393620320,
+        "HashCode": 212400192,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5976,7 +6087,7 @@
         }
       },
       {
-        "HashCode": -1267061474,
+        "HashCode": -326326970,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6059,7 +6170,7 @@
         }
       },
       {
-        "HashCode": 1177350461,
+        "HashCode": -1829653612,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6142,7 +6253,7 @@
         }
       },
       {
-        "HashCode": -482701357,
+        "HashCode": 423515208,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6225,7 +6336,7 @@
         }
       },
       {
-        "HashCode": 391667664,
+        "HashCode": -936317298,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6308,7 +6419,7 @@
         }
       },
       {
-        "HashCode": -2086914498,
+        "HashCode": -309560133,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6391,7 +6502,7 @@
         }
       },
       {
-        "HashCode": -330179648,
+        "HashCode": 1865983236,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6474,7 +6585,7 @@
         }
       },
       {
-        "HashCode": 727398990,
+        "HashCode": 270537242,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6557,7 +6668,7 @@
         }
       },
       {
-        "HashCode": 2108614586,
+        "HashCode": 1631650613,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6640,7 +6751,7 @@
         }
       },
       {
-        "HashCode": -2054895407,
+        "HashCode": -1923760249,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6723,7 +6834,7 @@
         }
       },
       {
-        "HashCode": -207635603,
+        "HashCode": 1004823834,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6806,7 +6917,7 @@
         }
       },
       {
-        "HashCode": 1871842304,
+        "HashCode": -2034961017,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6889,7 +7000,7 @@
         }
       },
       {
-        "HashCode": 1682469324,
+        "HashCode": -969490883,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6972,7 +7083,7 @@
         }
       },
       {
-        "HashCode": -356509053,
+        "HashCode": 1822184574,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7055,7 +7166,7 @@
         }
       },
       {
-        "HashCode": 1560943762,
+        "HashCode": -718315694,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7138,7 +7249,7 @@
         }
       },
       {
-        "HashCode": 1832935421,
+        "HashCode": -1023304819,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7221,7 +7332,7 @@
         }
       },
       {
-        "HashCode": -1132650923,
+        "HashCode": 628172228,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7304,7 +7415,7 @@
         }
       },
       {
-        "HashCode": -361881579,
+        "HashCode": 1632729931,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7387,7 +7498,7 @@
         }
       },
       {
-        "HashCode": -1597048674,
+        "HashCode": 2009397274,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7470,7 +7581,7 @@
         }
       },
       {
-        "HashCode": 2073854511,
+        "HashCode": 387101506,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7553,7 +7664,7 @@
         }
       },
       {
-        "HashCode": 61343836,
+        "HashCode": -1993601784,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7636,7 +7747,7 @@
         }
       },
       {
-        "HashCode": 364212777,
+        "HashCode": -1062462310,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7719,7 +7830,7 @@
         }
       },
       {
-        "HashCode": 79612964,
+        "HashCode": 240182563,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7802,7 +7913,7 @@
         }
       },
       {
-        "HashCode": -1481364475,
+        "HashCode": -1725332801,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7885,7 +7996,7 @@
         }
       },
       {
-        "HashCode": 982430433,
+        "HashCode": -1901668751,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7968,7 +8079,7 @@
         }
       },
       {
-        "HashCode": -593661835,
+        "HashCode": 1061114512,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8051,7 +8162,7 @@
         }
       },
       {
-        "HashCode": 792625852,
+        "HashCode": -1106305698,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8134,7 +8245,7 @@
         }
       },
       {
-        "HashCode": -1000265024,
+        "HashCode": -903655555,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8217,7 +8328,7 @@
         }
       },
       {
-        "HashCode": -408052417,
+        "HashCode": -31392885,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8300,7 +8411,7 @@
         }
       },
       {
-        "HashCode": -1660483093,
+        "HashCode": 180951321,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8383,7 +8494,7 @@
         }
       },
       {
-        "HashCode": 283739301,
+        "HashCode": 1509348986,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8466,7 +8577,7 @@
         }
       },
       {
-        "HashCode": -115282077,
+        "HashCode": 1178458680,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8549,7 +8660,7 @@
         }
       },
       {
-        "HashCode": -616338169,
+        "HashCode": -13032221,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8632,7 +8743,7 @@
         }
       },
       {
-        "HashCode": -288498196,
+        "HashCode": -298003004,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8715,7 +8826,7 @@
         }
       },
       {
-        "HashCode": -1717026524,
+        "HashCode": -2039878312,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8798,7 +8909,7 @@
         }
       },
       {
-        "HashCode": 785001984,
+        "HashCode": -1924118145,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8881,7 +8992,7 @@
         }
       },
       {
-        "HashCode": 923308893,
+        "HashCode": 690091532,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8964,7 +9075,7 @@
         }
       },
       {
-        "HashCode": -1391690681,
+        "HashCode": 1607247230,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9047,7 +9158,7 @@
         }
       },
       {
-        "HashCode": -1329362862,
+        "HashCode": 2085755399,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9130,7 +9241,7 @@
         }
       },
       {
-        "HashCode": 680921685,
+        "HashCode": 318626303,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9213,7 +9324,7 @@
         }
       },
       {
-        "HashCode": 323551495,
+        "HashCode": -522681276,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9296,7 +9407,7 @@
         }
       },
       {
-        "HashCode": -1634028359,
+        "HashCode": 1676600593,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9379,7 +9490,7 @@
         }
       },
       {
-        "HashCode": -427029830,
+        "HashCode": -1471402975,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9462,7 +9573,7 @@
         }
       },
       {
-        "HashCode": -886908787,
+        "HashCode": 1972941096,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9545,7 +9656,7 @@
         }
       },
       {
-        "HashCode": 1610926446,
+        "HashCode": -727154645,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9628,7 +9739,7 @@
         }
       },
       {
-        "HashCode": -46041848,
+        "HashCode": -35833753,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9711,7 +9822,7 @@
         }
       },
       {
-        "HashCode": -749806654,
+        "HashCode": -177410499,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9794,7 +9905,7 @@
         }
       },
       {
-        "HashCode": 1839805538,
+        "HashCode": 2015843921,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9877,7 +9988,7 @@
         }
       },
       {
-        "HashCode": -512189011,
+        "HashCode": -1144191797,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9960,7 +10071,7 @@
         }
       },
       {
-        "HashCode": -373762296,
+        "HashCode": 1662217842,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10043,7 +10154,7 @@
         }
       },
       {
-        "HashCode": -2121443445,
+        "HashCode": -91829250,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10126,7 +10237,7 @@
         }
       },
       {
-        "HashCode": 702359743,
+        "HashCode": -625433564,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10209,7 +10320,7 @@
         }
       },
       {
-        "HashCode": -1415949716,
+        "HashCode": -715958271,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10292,7 +10403,7 @@
         }
       },
       {
-        "HashCode": -826217079,
+        "HashCode": 1208497306,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10375,7 +10486,7 @@
         }
       },
       {
-        "HashCode": 2014728483,
+        "HashCode": -1946093502,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10458,7 +10569,7 @@
         }
       },
       {
-        "HashCode": 205708592,
+        "HashCode": -660771448,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10541,7 +10652,7 @@
         }
       },
       {
-        "HashCode": -115385392,
+        "HashCode": 482837901,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10624,7 +10735,7 @@
         }
       },
       {
-        "HashCode": -1782121738,
+        "HashCode": -1404354589,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10707,7 +10818,7 @@
         }
       },
       {
-        "HashCode": 119767193,
+        "HashCode": 628276079,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10790,7 +10901,7 @@
         }
       },
       {
-        "HashCode": -561440278,
+        "HashCode": 465429217,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10873,7 +10984,7 @@
         }
       },
       {
-        "HashCode": -399810919,
+        "HashCode": 315573454,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10956,7 +11067,7 @@
         }
       },
       {
-        "HashCode": -482007455,
+        "HashCode": 1406365836,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11039,7 +11150,7 @@
         }
       },
       {
-        "HashCode": -15428712,
+        "HashCode": -1274668771,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11122,7 +11233,7 @@
         }
       },
       {
-        "HashCode": -1957295948,
+        "HashCode": -1199708370,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11205,7 +11316,7 @@
         }
       },
       {
-        "HashCode": -1967170524,
+        "HashCode": 1679678274,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11288,7 +11399,7 @@
         }
       },
       {
-        "HashCode": -1343225342,
+        "HashCode": -1142001426,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11371,7 +11482,7 @@
         }
       },
       {
-        "HashCode": 1119615328,
+        "HashCode": 3976162,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11454,7 +11565,7 @@
         }
       },
       {
-        "HashCode": -1433449480,
+        "HashCode": 1372161078,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11537,7 +11648,7 @@
         }
       },
       {
-        "HashCode": -165197499,
+        "HashCode": 2046947476,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11620,7 +11731,7 @@
         }
       },
       {
-        "HashCode": -2142641674,
+        "HashCode": 1018626533,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11703,7 +11814,7 @@
         }
       },
       {
-        "HashCode": 2121798956,
+        "HashCode": -76166919,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11786,7 +11897,7 @@
         }
       },
       {
-        "HashCode": 1006705055,
+        "HashCode": 1524384538,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11869,7 +11980,7 @@
         }
       },
       {
-        "HashCode": -1324982526,
+        "HashCode": 234691526,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11952,7 +12063,7 @@
         }
       },
       {
-        "HashCode": -726537423,
+        "HashCode": 414669611,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12035,7 +12146,7 @@
         }
       },
       {
-        "HashCode": 1511062172,
+        "HashCode": -1446634407,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12118,7 +12229,7 @@
         }
       },
       {
-        "HashCode": -800723449,
+        "HashCode": 939195559,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12157,7 +12268,7 @@
         }
       },
       {
-        "HashCode": -9359732,
+        "HashCode": 198464925,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12253,7 +12364,7 @@
         }
       },
       {
-        "HashCode": 1949082768,
+        "HashCode": -1489317553,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12375,7 +12486,7 @@
         }
       },
       {
-        "HashCode": -252812624,
+        "HashCode": -632230726,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12497,7 +12608,7 @@
         }
       },
       {
-        "HashCode": -1931845009,
+        "HashCode": 87105597,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12630,7 +12741,7 @@
         }
       },
       {
-        "HashCode": -1486061621,
+        "HashCode": -1830907572,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12763,7 +12874,7 @@
         }
       },
       {
-        "HashCode": -1897000361,
+        "HashCode": -954762581,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12896,7 +13007,7 @@
         }
       },
       {
-        "HashCode": 1127967139,
+        "HashCode": 163477513,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13029,7 +13140,7 @@
         }
       },
       {
-        "HashCode": 66440145,
+        "HashCode": 183771833,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13162,7 +13273,7 @@
         }
       },
       {
-        "HashCode": 1601676159,
+        "HashCode": 1575831169,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13295,7 +13406,7 @@
         }
       },
       {
-        "HashCode": -561360460,
+        "HashCode": 328192074,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13428,7 +13539,7 @@
         }
       },
       {
-        "HashCode": -1120150877,
+        "HashCode": -1055799210,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13561,7 +13672,7 @@
         }
       },
       {
-        "HashCode": -1133415250,
+        "HashCode": 1688468622,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13694,7 +13805,7 @@
         }
       },
       {
-        "HashCode": 379159219,
+        "HashCode": 1571057732,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13827,7 +13938,7 @@
         }
       },
       {
-        "HashCode": -200319160,
+        "HashCode": 329996421,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13960,7 +14071,7 @@
         }
       },
       {
-        "HashCode": -1400519490,
+        "HashCode": 38342195,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14093,7 +14204,7 @@
         }
       },
       {
-        "HashCode": 1433591355,
+        "HashCode": -2051204170,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14215,7 +14326,7 @@
         }
       },
       {
-        "HashCode": 1926956077,
+        "HashCode": -725859594,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14337,7 +14448,7 @@
         }
       },
       {
-        "HashCode": -83968150,
+        "HashCode": -983274419,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14424,7 +14535,7 @@
         }
       },
       {
-        "HashCode": -796317141,
+        "HashCode": 256823821,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14512,7 +14623,7 @@
         }
       },
       {
-        "HashCode": -2074129786,
+        "HashCode": -2141759875,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14599,7 +14710,7 @@
         }
       },
       {
-        "HashCode": 850428474,
+        "HashCode": 47897664,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14687,7 +14798,7 @@
         }
       },
       {
-        "HashCode": 721514868,
+        "HashCode": -1248580801,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14774,7 +14885,7 @@
         }
       },
       {
-        "HashCode": -1850519655,
+        "HashCode": 321221689,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14862,7 +14973,7 @@
         }
       },
       {
-        "HashCode": -571134693,
+        "HashCode": -1709597922,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14949,7 +15060,7 @@
         }
       },
       {
-        "HashCode": 1594912552,
+        "HashCode": -2063635048,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15037,7 +15148,7 @@
         }
       },
       {
-        "HashCode": 486001632,
+        "HashCode": 1683447303,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15124,7 +15235,7 @@
         }
       },
       {
-        "HashCode": -1373007248,
+        "HashCode": 1173764047,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15212,7 +15323,7 @@
         }
       },
       {
-        "HashCode": 1963784929,
+        "HashCode": 1432175372,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15299,7 +15410,7 @@
         }
       },
       {
-        "HashCode": 1746402359,
+        "HashCode": 1706312750,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15387,7 +15498,7 @@
         }
       },
       {
-        "HashCode": 320941297,
+        "HashCode": -1045345640,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15474,7 +15585,7 @@
         }
       },
       {
-        "HashCode": 443234322,
+        "HashCode": 1331627536,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15562,7 +15673,7 @@
         }
       },
       {
-        "HashCode": 1643968942,
+        "HashCode": -607752254,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15601,7 +15712,7 @@
         }
       },
       {
-        "HashCode": -60532827,
+        "HashCode": 1798641341,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15645,23 +15756,8 @@
   "RootNamespace": "shipGameFront",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\AddPlayer.razor",
-      "TargetPath": "Pages\\AddPlayer.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\GameEnd.razor",
+      "TargetPath": "Pages\\GameEnd.razor",
       "FileKind": "component"
     },
     {
@@ -15670,9 +15766,29 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\ConnectToLockedGame.razor",
+      "TargetPath": "Pages\\ConnectToLockedGame.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\AddPlayer.razor",
+      "TargetPath": "Pages\\AddPlayer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
     },
     {
       "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\FetchData.razor",
@@ -15680,18 +15796,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\Pages\\ConnectToLockedGame.razor",
-      "TargetPath": "Pages\\ConnectToLockedGame.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\damia\\Desktop\\studiaGWSH\\programowanie\\shipGameFront\\App.razor",
-      "TargetPath": "App.razor",
       "FileKind": "component"
     }
   ],

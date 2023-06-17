@@ -16,7 +16,7 @@
     <button type="submit" class="btn btn-primary" @onclick="() => Attack()">Atakuj!</button>
 }
 <h3>@(platerTour?"Twój ruch":"czekaj na ruch przeciwnika")</h3>
-
+<h1>@ErrorMessage</h1>
 
 <div class="table-container">
     <div>
@@ -101,7 +101,36 @@
     </div>
 </div>
 
+<div class="quide-row">
+    <div class="col">
+        <div style="background-color: rgba(0, 0, 0, 0.411);" class="square">nietrafiony</div>
+    </div>
+    <div class="col">
+        <div style="background-color: rgb(255, 166, 0);" class="square">trafiony</div>
+    </div>
+</div>
+
+
 <style>
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        flex: 1;
+    }
+
+    .square {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .table-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -294,6 +323,12 @@
 
     private void TimerElapsed(object sender, ElapsedEventArgs e)
     {
+        if(killedEnemyPoints.Count() == 10 || killedPlayerPoints.Count() == 10){
+            Navigation.NavigateTo($"/game-end");
+            ErrorMessage = "TEST end";
+            this.Dispose();
+        }
+        
         UpdatePlayerPoints();
         UpdateEnemyPoints();
         updateGameTour();
